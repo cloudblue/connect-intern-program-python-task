@@ -1,4 +1,4 @@
-![Connect Logo](/assets/connect_logo.png)
+# Cloudblue Connect Inter Program Python Task
 
 Hi, our future Intern!
 
@@ -6,11 +6,11 @@ If you are reading this - means you were applied on **Connect Intern Program**. 
 
 This README contains general description of test task and how to deliver your solution for verification to engineering team.
 
-# How To Share Your Results
+## How To Share Your Results
 
 Just send a link to github project to **Cloudblue Connect** HR
 
-# General Description
+## General Description
 
 In **Cloudblue Connect** we love *Python*, *Django* and *Django Rest Framework*. That's why for our future inters we force to do test tasks using this technologies.
 You can find detailed description of tasks here:
