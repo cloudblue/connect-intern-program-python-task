@@ -52,18 +52,19 @@ Find detailed API description here
 | HTTP Method | URL                 | Filters             | Ordering               | Response Code |
 | ----------- | ----------------    | ------------------- | ---------------------- | ------------- |
 | GET         | /api/v1/orders      | external_id, status | id, status, created_at | 200 |
-| GET         | /api/v1/orders/<id> | - | - | 200 |
+| GET         | /api/v1/orders/{id} | - | - | 200 |
 | POST        | /api/v1/orders      | - | - | 201 |
-| PUT         | /api/v1/orders/<id> | - | - | 200 |
-| DELETE      | /api/v1/orders/<id> | - | - | 204 |
+| PUT         | /api/v1/orders/{id} | - | - | 200 |
+| DELETE      | /api/v1/orders/{id} | - | - | 204 |
 
 > Note: Users should not be able to delete *'accepted'* ***Orders***.
 
 Furthermore, API should support custom nested actions to switch ***Order*** between statuses.
+
 | HTTP Method | URL                 | Filters             | Ordering               | Response Code |
 | ----------- | ----------------    | ------------------- | ---------------------- | ------------- |
-| POST         | /api/v1/orders/<id>/accept      | - | - | 200 |
-| POST         | /api/v1/orders/<id>/fail      | - | - | 200 |
+| POST        | /api/v1/orders/{id}/accept      | - | - | 200 |
+| POST        | /api/v1/orders/{id}/fail      | - | - | 200 |
 
 The following provides detailed description of request/response bodies. In case there is no information for some API, consider request/response bodies as empty.
 
@@ -83,7 +84,7 @@ The following provides detailed description of request/response bodies. In case 
 }, ...]
 ```
 
-> Note: GET /api/v1/orders/<id> contains same fields in response but returns a particular ***Order*** instead of an ***Order*** list.
+> Note: GET /api/v1/orders/{id} contains same fields in response but returns a particular ***Order*** instead of an ***Order*** list.
 
 ### POST /api/v1/orders Request Body
 ```json
@@ -114,7 +115,7 @@ Response body should only contain a created ***Order*** entity with order detail
 }, ...]
 ```
 
-### PUT /api/v1/orders/<id> Request Body
+### PUT /api/v1/orders/{id} Request Body
 > Note: Users should only be able to update the *'external_id'* field for an ***Order***. Other fields should be ignored even if they were passed in request body.
 
 > Note: It should be possible to update ***Orders*** only in the status '*new*'.
@@ -134,7 +135,7 @@ Response body should only contain a created ***Order*** entity with order detail
 }, ...]
 ```
 
-### PUT /api/v1/orders/<id> Response Body
+### PUT /api/v1/orders/{id} Response Body
 Response body is same as response bodies for GET, POST operations.
 
 ```json
