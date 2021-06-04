@@ -10,7 +10,7 @@ First of all, it is important to understand what the term *Order* means in our e
 5. Users that process ***Orders*** can move them to the following statuses: *'accepted'* or *'rejected'*.
 6. Users should not be able to delete *'accepted'* ***Orders***.
 
-***Order*** flow can be described with the simple state diagram below:
+The ***Order*** flow can be described with a simple state diagram below:
 ![001 Order flow diagram](/assets/001_order_flow/001_order_flow_diagram.png)
 
 # Requirements and Solution Description
