@@ -1,19 +1,19 @@
-# Cloudblue Connect Inter Program Python Task
+# CloudBlue Connect Intern Program Python Task
 
-Hi, our future Intern!
+Hello, our future Intern!
 
-If you are reading this - means you were applied on **Connect Intern Program**. I want to welcome you and say "Good luck!" on solving test tasks.
+If you are reading this, it means you were applied on **Connect Intern Program**. I want to welcome you and say good luck on solving the following test task.
 
-This README contains general description of test task and how to deliver your solution for verification to engineering team.
+This README file contains general description of the test task and how to deliver your solution for verification.
 
 ## How To Share Your Results
 
-Just send a link to github project to **Cloudblue Connect** HR
+Please send your Github project link to **CloudBlue Connect** HR.
 
 ## General Description
 
-In **Cloudblue Connect** we love *Python*, *Django* and *Django Rest Framework*. That's why for our future inters we force to do test tasks using this technologies.
-You can find detailed description of tasks here:
+The **CloudBlue Connect** team loves *Python*, *Django* and *Django Rest Framework*. That is why we ask our future interns to complete test tasks using these technologies.
+You can find the detailed task description here:
 1. [Order Flow](/001_order_flow.md)
 
-Please, read carefully general requirements. They are very important and are differ from standard options in *Django* and *Django REST Framework*. If you have any question feel free to ask to our HR.
+Please read carefully the provided general requirements. It is very important to note that these requirements are different from standard options in *Django* and *Django REST Framework*. In case you have any question, feel free to ask our HR.
