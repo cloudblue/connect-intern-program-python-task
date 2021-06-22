@@ -88,20 +88,20 @@ The following provides detailed description of request/response bodies. In case 
 
 ### POST /api/v1/orders Request Body
 ```json
-[{
+{
     "external_id": "PR-123-321-123",
     "details": [{
         "product": {"id": 4},
         "amount": 10,
         "price": "12.00"
     }, ...]
-}, ...]
+}
 ```
 
 ### POST /api/v1/orders Response Body
 Response body should only contain a created ***Order*** entity with order details information.
 ```json
-[{
+{
     "id": 1,
     "status": "new",
     "created_at": "2021-01-01T00:00:00",
@@ -112,7 +112,7 @@ Response body should only contain a created ***Order*** entity with order detail
         "amount": 10,
         "price": "12.00"
     }, ...]
-}, ...]
+}
 ```
 
 ### PUT /api/v1/orders/{id} Request Body
@@ -121,7 +121,7 @@ Response body should only contain a created ***Order*** entity with order detail
 > Note: It should be possible to update ***Orders*** only in the status '*new*'.
 
 ```json
-[{
+{
     "id": 1,
     "status": "new",
     "created_at": "2021-01-01T00:00:00",
@@ -132,7 +132,7 @@ Response body should only contain a created ***Order*** entity with order detail
         "amount": 10,
         "price": "12.00"
     }, ...]
-}, ...]
+}
 ```
 
 ### PUT /api/v1/orders/{id} Response Body
