@@ -26,7 +26,6 @@ Your goal is to create a simple Web Application that should provide REST API wit
 4. Use any SQL database you want
 
 ## General Solution Requirements
-1. Web Application should be implemented as an Open System. Namely, any additional unknown input field should be ignored, and the http request should not fail.
 2. API should accept and return data only in the JSON format.
 2. Collections List API should support Paging.
 3. Collections List API should enable users to define 'limit' and 'offset' query parameters for Paging.
