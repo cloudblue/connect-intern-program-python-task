@@ -30,7 +30,7 @@ Your goal is to create a simple Web Application that should provide REST API wit
 2. Collections List API should support Paging.
 3. Collections List API should enable users to define 'limit' and 'offset' query parameters for Paging.
 4. A response body of Collections List API should return only list of entities.
-5. Collections List API should return paging information in a header 'Content-Range' via the following format: 'items <from-number>-<to-number>/<total>'.
+5. Collections List API should return paging information in a header 'Content-Range' via the following format: 'items {from-number}-{to-number}/{total}'.
 3. There should be proper handling of exceptions in the API.
 4. There is no need for Authentication and Authorization processes.
 5. PUT should be implemented as a partial update.
